@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CoolRun/Module/Public/Controller/SelectViewController.m"
-            timestampString = "494241775.184819"
+            filePath = "CoolRun/Module/Run/View/SubView/RecordCardView.m"
+            timestampString = "495959720.445482"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
-            landmarkName = "-selectBtn:"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "-configureViewWithViewModel:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,29 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CoolRun/Module/Public/Controller/SelectViewController.m"
-            timestampString = "494241776.592938"
+            filePath = "CoolRun/Module/Run/View/SubView/RecordCardView.m"
+            timestampString = "495959723.004714"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "-selectBtn:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CoolRun/Module/Public/Controller/SelectViewController.m"
-            timestampString = "494241778.520671"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
-            landmarkName = "-selectBtn:"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "-configureViewWithViewModel:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

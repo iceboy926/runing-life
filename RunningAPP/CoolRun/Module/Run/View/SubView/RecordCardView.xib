@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A270f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -37,7 +37,7 @@
                             </variation>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你消耗了：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLe-bl-Fvt">
-                            <rect key="frame" x="8" y="170" width="80" height="19.5"/>
+                            <rect key="frame" x="8" y="170" width="80" height="20"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                             <color key="textColor" red="0.98431372549999996" green="0.17254901959999999" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
@@ -55,19 +55,19 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15公里" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Bv9-FJ-qV4">
-                                    <rect key="frame" x="8" y="70" width="49.5" height="20"/>
+                                    <rect key="frame" x="8" y="70" width="50" height="20"/>
                                     <fontDescription key="fontDescription" name="Knockout-HTF30-JuniorWelterwt" family="Knockout" pointSize="18"/>
                                     <color key="textColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000卡路里" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="Pc8-m8-3ZL">
-                                    <rect key="frame" x="8" y="8" width="139" height="32.5"/>
+                                    <rect key="frame" x="8" y="8" width="139" height="33"/>
                                     <fontDescription key="fontDescription" name="Knockout-HTF30-JuniorWelterwt" family="Knockout" pointSize="29"/>
                                     <color key="textColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pace" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="DE3-yF-yIh">
-                                    <rect key="frame" x="560" y="70" width="31.5" height="20"/>
+                                    <rect key="frame" x="560" y="70" width="32" height="20"/>
                                     <fontDescription key="fontDescription" name="Knockout-HTF30-JuniorWelterwt" family="Knockout" pointSize="18"/>
                                     <color key="textColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
@@ -91,8 +91,8 @@
                                 </mask>
                             </variation>
                         </view>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="— —" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JvD-wX-fue">
-                            <rect key="frame" x="556" y="125.5" width="35.5" height="19.5"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="— —" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JvD-wX-fue">
+                            <rect key="frame" x="556" y="126" width="36" height="19"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                             <color key="textColor" red="0.98431372549999996" green="0.17254901959999999" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
@@ -113,7 +113,7 @@
                                     </userDefinedRuntimeAttributes>
                                 </imageView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未登录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h36-Jm-aHH">
-                                    <rect key="frame" x="270" y="14" width="60" height="22.5"/>
+                                    <rect key="frame" x="270" y="14" width="60" height="23"/>
                                     <fontDescription key="fontDescription" name="Knockout-HTF30-JuniorWelterwt" family="Knockout" pointSize="20"/>
                                     <color key="textColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
@@ -136,7 +136,7 @@
                             </variation>
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROm-yH-uhQ">
-                            <rect key="frame" x="576" y="171" width="15.5" height="18"/>
+                            <rect key="frame" x="576" y="171" width="16" height="18"/>
                             <fontDescription key="fontDescription" name="Knockout-HTF30-JuniorWelterwt" family="Knockout" pointSize="16"/>
                             <color key="textColor" red="0.98431372549999996" green="0.17254901959999999" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>

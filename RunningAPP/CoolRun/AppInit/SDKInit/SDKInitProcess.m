@@ -37,11 +37,11 @@
     [self.healthStore requestAuthorizationToShareTypes:nil readTypes:healthSet completion:^(BOOL success, NSError * _Nullable error) {
         if (success)
         {
-            NSLog(@"获取距离权限成功");
+            NSLog(@"获取健康权限成功");
         }
         else
         {
-            NSLog(@"获取距离权限失败");
+            NSLog(@"获取健康权限失败");
         }
     }];
 

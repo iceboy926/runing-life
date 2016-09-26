@@ -1628,6 +1628,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kingyh.runninglife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
@@ -1648,6 +1649,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kingyh.runninglife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
